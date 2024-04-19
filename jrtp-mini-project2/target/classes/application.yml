@@ -1,0 +1,32 @@
+server:
+  port: 8900
+spring:
+  datasource:
+    password: Maha123@
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: ctsr vhsn tsim exgq
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: 21mca23@pbsiddhartha.ac.in
+    
+app:
+ message:
+  dupEmail: Duplicate Email
+  regsucc: user registered
+  regFail: Registration failed
+  invalidCredentials: Invalid credential
+  PwdMatchErr: New Pwd and Confirm Pwd Should be same
+  pwdUpdateErr: Pwd Update Failed
+  oldPwdErr: Given Old Pwd  is Wrong
